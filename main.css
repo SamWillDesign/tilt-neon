@@ -54,9 +54,9 @@ h3{
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "HROT" -45, "VROT" -45;
+        font-variation-settings: "HROT" -30, "VROT" -45;
     }
-    50%{font-variation-settings: "HROT" 45, "VROT" 45;
+    50%{font-variation-settings: "HROT" -20, "VROT" 45;
     }
     
 }
