@@ -6,7 +6,7 @@
 }
     
     body{
-    background-color: rgba(6, 146, 25, 0.484);
+    background-color: rgba(85,255,225);
     font-family: 'Tilt Neon', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
@@ -41,7 +41,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(29, 250, 0);
+    background-color: rgb(166,253,41);
 }
 
 /* variable font animation */
