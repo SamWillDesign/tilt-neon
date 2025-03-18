@@ -8,12 +8,34 @@
     body{
     background-color: rgba(85,255,225);
     font-family: 'Tilt Neon', sans-serif;
+    font-size:15px;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 80ch);
     margin-inline: auto;
 }
+/* variable font animation mobile*/
+h3{
+    font-weight: 20; 
+    text-align: center;
+    font-size: 8em;
+    line-height: 10px;
+    animation: weightChange 7s infinite;
+}
+@keyframes weightChange {
+    0%, 100%{
+        font-variation-settings: "HROT" -30, "VROT" -45;
+    }
+    50%{font-variation-settings: "HROT" -20, "VROT" 45;
+    }
+    
+}
+/* CSS for the footer mobile*/
+footer{
+    background-color: rgb(166,253,41);
+}
+
 /* how the page wrapper appears on desktop */
 
 @media only screen and (min-width:800px){
@@ -49,7 +71,7 @@ h3{
     font-weight: 20; 
     text-align: center;
     font-size: 8em;
-    line-height: 20px;
+    line-height: 15px;
     animation: weightChange 7s infinite;
 }
 
@@ -97,6 +119,10 @@ h3{
     font-weight: bold;
     text-transform: uppercase;
     box-shadow: 0 5px 15px rgba(55,1,58);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding-top: 10px;
 }
 
 .shadow:hover {
