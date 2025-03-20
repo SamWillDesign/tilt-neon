@@ -8,7 +8,20 @@
     body{
     background-color: rgba(85,255,225);
     font-family: 'Tilt Neon', sans-serif;
-    font-size:15px;
+    font-size:30px;
+}
+/* how text will appear on mobile */
+@font-face {
+    font-family: 'Tilt Neon';
+    src: url("fonts/TiltNeon[HROT\,VROT].woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+    
+    body{
+    background-color: rgba(85,255,225);
+    font-family: 'Tilt Neon', sans-serif;
+    font: size 25px;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -30,6 +43,31 @@ h3{
     50%{font-variation-settings: "HROT" -20, "VROT" 45;
     }
     
+}
+/* variable font Variation Animation desktop */
+.vertical{
+    animation: vrotChange 5s infinite;
+}
+
+@keyframes vrotChange {
+    0%, 100%{
+        font-variation-settings: "HROT" 0, "VROT" -45;
+    }
+    50%{font-variation-settings: "HROT" 0, "VROT" 45;
+    }
+     
+}
+.horizontal{
+    animation: hrotChange 5s infinite;
+}
+
+@keyframes hrotChange {
+    0%, 100%{
+        font-variation-settings: "HROT" -45, "VROT" 0;
+    }
+    50%{font-variation-settings: "HROT" 45, "VROT" 0;
+    }
+
 }
 /* CSS for the footer mobile*/
 footer{
@@ -122,7 +160,8 @@ h3{
     text-decoration: none;
     border: none;
     outline: none;
-    padding-top: 10px;
+    display:inline-block;
+    margin-bottom:100px;
 }
 
 .shadow:hover {
