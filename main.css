@@ -6,10 +6,9 @@
 }
     
     body{
-    background-color: rgba(55,1,58);
+    background-color: rgba(85,255,225);
     font-family: 'Tilt Neon', sans-serif;
     font-size:30px;
-    color: white;
 }
 /* how text will appear on mobile */
 @font-face {
@@ -17,11 +16,10 @@
     src: url("fonts/TiltNeon[HROT\,VROT].woff2") format("woff2");
     font-style: normal;
     font-weight: normal;
-    color: white;
 }
     
     body{
-    background-color: rgba(55,1,58);
+    background-color: rgba(85,255,225);
     font-family: 'Tilt Neon', sans-serif;
     font: size 25px;
 }
@@ -98,7 +96,7 @@ h3{
 }
 /* CSS for the footer mobile*/
 footer{
-    background-color: rgb(255,59,148);
+    background-color: rgb(166,253,41);
 }
 
 /* how the page wrapper appears on desktop */
@@ -128,7 +126,7 @@ grid-area: a;
 
 /* CSS for the footer */
 footer{
-    background-color: rgb(255,59,148);
+    background-color: rgb(166,253,41);
 }
  
 /* variable font animation */
