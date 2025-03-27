@@ -97,6 +97,7 @@ h3{
 /* CSS for the footer mobile*/
 footer{
     background-color: rgb(166,253,41);
+    padding-bottom: 5px;
 }
 
 /* how the page wrapper appears on desktop */
