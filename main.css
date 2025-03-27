@@ -46,7 +46,7 @@ h3{
 }
 /* variable font Variation Animation desktop */
 .vertical{
-    animation: vrotChange 5s infinite;
+    animation: vrotChange 9s infinite;
 }
 
 @keyframes vrotChange {
@@ -58,7 +58,7 @@ h3{
      
 }
 .horizontal{
-    animation: hrotChange 5s infinite;
+    animation: hrotChange 9s infinite;
 }
 
 @keyframes hrotChange {
@@ -71,7 +71,7 @@ h3{
 }
 /* variable font Variation Animation mobile*/
 .vertical{
-    animation: vrotChange 5s infinite;
+    animation: vrotChange 9s infinite;
 }
 
 @keyframes vrotChange {
@@ -83,7 +83,7 @@ h3{
      
 }
 .horizontal{
-    animation: hrotChange 5s infinite;
+    animation: hrotChange 9s infinite;
 }
 
 @keyframes hrotChange {
@@ -127,6 +127,7 @@ grid-area: a;
 /* CSS for the footer */
 footer{
     background-color: rgb(166,253,41);
+    padding-bottom: 5px;
 }
  
 /* variable font animation */
@@ -191,4 +192,7 @@ h3{
 
 .shadow:hover {
     background-color: #a6fd29;
+}
+h5{
+    padding-left: 30px;
 }
